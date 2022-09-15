@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    color: rgb(216, 194, 0);
+    font-size: 100%;
+    background-image: url(/Imagens/fundo-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer{
+    font-size: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.795);
+    margin-top: 25%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    margin: 40px;
+}
+h4{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+   border-color:#FCDB21;
+   border-radius:10px;
+   width: 500px;
+   height: auto;
+}
+
+input{
+    background: rgba(255, 255, 255, 0.682);
+}
+
+#Resumo{
+    font-family: 'Roboto Mono', monospace;
+    color: #FCDB21;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: auto;
+}
+
+#Hobbies{
+    font-family: 'Press Start 2P', cursive;
+    color: #FCDB21;
+    padding: 20px;
+    font-size: 28px;
+}
+
+#texto-card1{
+    font-family: 'Press Start 2P', cursive;
+    color: #FCDB21;
+    padding: 20px;
+    font-size: 28px;
+}
+
+#contato-1{
+    font-family: 'Press Start 2P', cursive;
+    color: #FCDB21;
+    padding: 20px;
+    font-size: 28px;
+}
+#menu-interativo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px;
+    font-family: 'Press Start 2P', cursive;
+    color: #FCDB21;
+    background-size: 20px;
+    background: rgba(0, 0, 0, 0.575);
+    text-decoration: none;
+    transition: background 0,5s;
+}
+
+#menu-interativo a:hover{
+    background-color: rgb(23, 23, 23);
+    background-size: 30px;
+    border-radius: 10px;
+}
+
+#link-topo{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #FCDB21;
+    background-color: rgb(0, 0, 0);
+    border: #FCDB21 solid 2px;
+    border-radius: 16px;
+    padding: 20px;
+    position: static;
+    margin-left: 80%;
+    margin-right: 10%;
+    left: 10px;
+    bottom: 10px;
+}
+
+.subtitulo {
+    font-family: 'Press Start 2P', cursive;
+    color: #FCDB21;
+    padding: 20px;
+    font-size: 28px;
+}
+
+.lista {
+    font-family: 'Roboto Mono', monospace;
+    color: #FCDB21;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: auto;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: auto;
+    margin-top: 8%;
+}
+
+.box {
+    margin-top: 10%;
+    width: 800px;
+    height: 700px;
+    border: #FCDB21 solid 3px;
+    border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(20, 19, 19, 0.814);
+    align-items: center;
+    border-radius: 16px;
+    max-width: 400px;
+    padding: auto;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+.box:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.fim-de-page{
+    font-family: 'Press Start 2P', cursive;
+    color: #FCDB21;
+    padding: 20px;
+    font-size: 28px;
+    display: flex;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
